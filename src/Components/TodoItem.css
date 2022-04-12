@@ -1,0 +1,9 @@
+.todo-finish {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.todo-pending {
+    text-decoration: none;
+    color: #555;
+}

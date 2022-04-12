@@ -1,0 +1,46 @@
+body {
+  background-color: #EEE;
+  color: #555;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  margin: 2vh;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.todo-card {
+  position: relative;
+  width: 45em;
+  margin: auto;
+  text-align: left;
+  padding: 0px;
+  border: black;
+  border-radius: 10px;
+  border-width: 10px;
+}
+
+.list-group {
+  margin: 0px;
+}
+
+.list-group-flush> .list-group-item {
+  padding: 0px 0px;
+}
+
+.list-group-item {
+  list-style-type: none;
+  margin: 0;
+}
